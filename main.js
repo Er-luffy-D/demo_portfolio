@@ -7,10 +7,16 @@ form.addEventListener("submit",(e)=>{
     const name=Username.value;
     const phno= document.querySelector("#inpup")
     const phone=phno.value;
+    const message= document.querySelector("#inpux")
+    const msg=message.value;
     if(isNaN(phone) || (phone+ '').length!=10){
         alert("PLEASE ENTER A VALID NO")
     }
-    const message= document.querySelector("#inpux")
-    const msg=message.value;
-    console.log(name,phone,msg);
+    else{
+
+        alert("THANKS FOR CONTACTING")
+    }
+    Username.value="";
+    phno.value="";
+    message.value="";
 })
