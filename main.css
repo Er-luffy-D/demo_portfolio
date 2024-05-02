@@ -163,6 +163,7 @@ h2{
 #contact{
     background-color: #f2f6f8;
     display: flex;
+    
     flex-direction: column;
     align-items: center;
     justify-content: space-between;

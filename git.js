@@ -22,7 +22,7 @@ form.addEventListener("submit",(e)=>{
         <span>following:${data.following}</span>
         <button><a href="${data.html_url}" target="_blank">Click</a></button>`
         icon.innerHTML=`<img src="${data.avatar_url}" alt="icon">`
-        // console.log(data)
+        
     }
     res();
 })
