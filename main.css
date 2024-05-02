@@ -17,6 +17,7 @@ nav a:hover{
     text-decoration: underline;
 }
 nav{
+    
     font-family: "JetBrains Mono",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: fixed;
     width:100%;
@@ -30,6 +31,7 @@ nav ul{
     font-size: 1.2rem;
     flex-wrap: wrap;
     align-items: center;
+    padding: 0px;
 }
 
 nav ul li{
@@ -225,6 +227,9 @@ footer{
     display: inline-block;
     margin: 1rem;
 }
+.foots i{
+    font-size: 2rem;
+}
 .foots a:hover{
     color: red;
     transition: 1s all;
@@ -240,16 +245,16 @@ footer{
         width: 100%;
     }
     .icon{
-        font-size: 1rem;    }
+        font-size: 1rem;
+    }
+    .foots i{
+        font-size: 2rem;
+    }
     #img{
         display: none;
     }
     .display{
-     
         grid-template-columns: auto ;
-    }
-    nav a{
-        font-size: .9rem;
     }
 
 }
