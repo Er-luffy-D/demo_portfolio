@@ -235,14 +235,27 @@ footer{
     color: red;
     transition: 1s all;
 }
+@media screen and ( max-width: 595px ) {
+    header{
+        font-size: .9rem;
+    }
+    #img{
+        display: none;
+    }
+    .display{
+        grid-template-columns: auto ;
+    }
+}
 @media screen and ( max-width: 400px ) {
     *{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     #stacks{
         grid-template-columns: auto auto;
         text-align: center;
-        padding: 2%;
+        align-items: center;
+        padding: 1.1rem;
+        max-width: 300px;
         width: 100%;
     }
     .icon{
@@ -256,6 +269,8 @@ footer{
     }
     .display{
         grid-template-columns: auto ;
+        max-width: 400px;
+        width: 100%;
     }
 
 }
